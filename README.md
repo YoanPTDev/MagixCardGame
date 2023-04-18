@@ -39,7 +39,11 @@ The CommonAction class implements a Template Design Pattern. The execute() metho
 Looking at the AjaxAction class, we can see that it implements the specific logic for handling AJAX requests for connected members while maintaining the 
 general structure of the execute() method defined by the Template Design Pattern in the parent CommonAction class.
 
+### Login page
 ![Login page](/git_assets/login.png?raw=true "Login page")
+### Lobby page
 ![Lobby page](/git_assets/lobby.png?raw=true "Lobby page")
+### Game page
 ![Game page](/git_assets/ingame.png?raw=true "Game page")
+### Deck page
 ![Deck page](/git_assets/deck.png?raw=true "Deck page")
