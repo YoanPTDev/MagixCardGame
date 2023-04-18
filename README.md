@@ -40,6 +40,6 @@ Looking at the AjaxAction class, we can see that it implements the specific logi
 general structure of the execute() method defined by the Template Design Pattern in the parent CommonAction class.
 
 ![Login page](/MagixCardGame/git_assets/login.png?raw=true "Login page")
-![Lobby page](/MagixCardGame/git_assets/login.png?raw=true "Lobby page")
-![Game page](/MagixCardGame/git_assets/login.png?raw=true "Game page")
+![Lobby page](/MagixCardGame/git_assets/lobby.png?raw=true "Lobby page")
+![Game page](/MagixCardGame/git_assets/ingame.png?raw=true "Game page")
 ![Deck page](/MagixCardGame/git_assets/deck.png?raw=true "Deck page")
