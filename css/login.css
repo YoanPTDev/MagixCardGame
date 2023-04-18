@@ -1,0 +1,66 @@
+@font-face {
+	font-family: MajorMonoDisplay;
+	src: url(../fonts/MajorMonoDisplay-Regular.ttf);
+}
+
+body {
+    background-image: url("../image/Login.png");
+    background-size: cover;
+}
+
+h1 {
+    padding-top: 70px;
+    color: rgba(155, 155, 124, 0.9);
+    text-shadow: 0px 1px 0px rgba(238, 238, 238, 0.9);
+}
+
+button {
+    font-family: 'MajorMonoDisplay';
+    text-shadow: 0px 1px 0px rgba(238, 238, 238, 0.9);
+    padding: 10px 20px;
+    margin: 20px 40px;
+    background-color: rgba(165, 75, 41, 1);
+    color: rgba(56, 56, 45, 0.9);
+    border: none;
+    border-radius: 5px;
+    font-size: xx-large;
+    box-shadow: 2px 4px 10px rgba(139, 139, 104, 0.9);
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgba(165, 75, 41, 1);
+    background-color: rgba(56, 56, 45, 0.9);
+}
+
+.error-div {
+    font-family: 'MajorMonoDisplay';
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    font-size: xx-large;
+    color: rgba(155, 155, 124, 0.9);
+    -webkit-text-stroke: 0.1px rgba(102, 99, 92, 0.9);
+    text-shadow: 0px 1px 0px rgba(238, 238, 238, 0.9);
+}
+
+.login-form-frame {
+    margin: 20vh 10vh 0px 40vh;
+    color: white;
+}
+
+.form-label {
+    text-shadow: 0px 1px 0px rgba(238, 238, 238, 0.9);
+    color: rgba(0, 0, 0, 0.9);
+    margin: 1vh 0px;
+    font-family: 'MajorMonoDisplay';
+    font-size: 10vh;
+}
+
+input {
+    background-color: rgba(12, 12, 12, 0.2);
+    color: rgba(255, 255, 255, 0.9);
+    margin: 1vh 0px;
+    font-family: 'MajorMonoDisplay';
+    font-size: 3vh;
+}

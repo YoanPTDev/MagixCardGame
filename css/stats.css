@@ -1,0 +1,112 @@
+@font-face {
+	font-family: MajorMonoDisplay;
+	src: url(../fonts/MajorMonoDisplay-Regular.ttf);
+}
+
+body {
+    background-color: black;
+    background-image: url("../image/stats1.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 95%;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'MajorMonoDisplay';
+    padding: 10px;
+    background-color: rgb(51, 43, 41);
+    color: rgba(168, 168, 161, 0.9);
+    border: none;
+    border-radius: 0 0 5px 0;
+    font-size: large;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(51, 43, 41);
+    background-color: rgba(168, 168, 161, 0.9);
+}
+
+.clear-data:hover {
+    color: rgb(51, 43, 41);
+    background-color: rgba(168, 168, 161, 0.9);
+}
+
+.title-div {
+    margin: 29px 0px 0px 290px;
+    width: fit-content;
+    color: rgb(95, 87, 71);
+    font-family: 'MajorMonoDisplay';
+    font-size: xx-large;
+    scale: 2.4;
+    text-shadow: -1px -2px 0px rgb(161, 145, 105);
+}
+
+#main-container {
+    display: flex;
+    position: absolute;
+    right: 14%;
+    top: 15%;
+    height: fit-content;
+    max-height: 70%;
+    overflow-y: scroll;;
+    box-shadow: 3px -3px 0.3px rgb(161, 145, 105);
+}
+
+.favorites-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    flex-direction: column;
+}
+
+.main-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-node {
+    padding: 3px 30px;
+}
+
+div {
+    color: blanchedalmond;
+}
+
+table {
+    background-color: rgb(95, 87, 71);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(121, 107, 91);
+}
+
+.with-players, .without-players, .clear-data {
+    font-family: 'MajorMonoDisplay';
+    text-shadow: 0px 1px 0px rgba(238, 238, 238, 0.9);
+    padding: 5px;
+    background-color: rgb(51, 43, 41);
+    color: rgba(168, 168, 161, 0.9);
+    border: none;
+    border-radius: 5px;
+    font-size: xx-large;
+    cursor: pointer;
+    position: absolute;
+}
+
+.with-players {
+    right: 20%;
+    top: 5%;
+}
+
+.without-players {
+    right: 20%;
+    top: 10%;
+}
+
+.clear-data {
+    right: 5%;
+    bottom: 5%;
+    
+}

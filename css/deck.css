@@ -1,0 +1,45 @@
+@font-face {font-family: MajorMonoDisplay; src: url(../fonts/MajorMonoDisplay-Regular.ttf);}
+
+h1 {
+    margin-top: 40px;
+    text-shadow: 0px 1px 0px rgba(238, 238, 238, 0.9);
+}
+
+a {
+    text-decoration: none;
+    font-family: 'MajorMonoDisplay';
+    text-shadow: 0px 1px 0px rgba(238, 238, 238, 0.9);
+    padding: 10px;
+    background-color: rgba(165, 75, 41, 1);
+    color: rgba(56, 56, 45, 0.9);
+    border: none;
+    border-radius: 0 0 5px 0;
+    font-size: x-large;
+    box-shadow: 1px 1px 10px rgba(59, 59, 52, 0.9);
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgba(165, 75, 41, 1);
+    background-color: rgba(56, 56, 45, 0.9);
+}
+
+.deck-iframe {
+	width: 99%;
+	height: 85vh;
+    background-image: url("../image/BattleMap2.png");
+    background-position: center;
+    align-items: center;
+    color: rgba(31, 25, 7, 0.9);
+}
+
+.deck-div {
+    color: rgba(222, 222, 222, 0.9);
+    font-family: 'MajorMonoDisplay';
+    text-align: center;
+	width: 100%;
+}
+
+body {
+    background-image: url("../image/BattleMap2.png");
+}
